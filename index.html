@@ -1,0 +1,195 @@
+<html>
+<head>
+    <title>Shuddho Sarker - Portfolio Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="logo.jpg" type="image/x-icon">
+    
+    <script>
+        alert("Please do not create any risk on this server. Thanks !")
+
+
+        const emailInput = document.getElementById('email');
+        const confirmEmailInput = document.getElementById('confirmEmail');
+        const emailMismatchMessage = document.getElementById('emailMismatch');
+
+        confirmEmailInput.addEventListener('keyup', () => {
+            if (emailInput.value !== confirmEmailInput.value) {
+                emailMismatchMessage.textContent = 'Emails must match.';
+            } else {
+                emailMismatchMessage.textContent = '';
+            }
+        });
+    </script>
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="logo"><a href="?" title="shuddhosarker- Home"><b>shuddhosarker</b></a></div>
+
+        <div class="links">
+            <a href="#home-content">Home</a>
+            <a href="#video-content">Videos</a>
+            <a href="#about-content">About Me</a>
+            <a href="#contact-content">Contact Me</a>
+        </div>
+    </div>
+
+    <hr>
+
+
+    <section id="home-content">
+        <br><br><br><br><br><br><br>
+        <h1 class="title" align="center">Welcome everyone to our new website</h1>
+        <p class="sub-title">Stay here for get the current updates</p>
+        <center>
+            <a href="javascript;"><button class="cta-btn"><b>Hire Me</b></button></a>
+        </center>
+    </section>
+    <br><br><br><br>
+    <section id="video-content">
+        <h1 class="video" align="center">Videos</h1> <br>
+        <div class="videos">
+            <center>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/HvEY6xkdldc?si=Plx2o5stsWpyXWYw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/AfOtU648JGE?si=IDaHO1Okrjr6YCuN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </center> <br>
+
+            <center>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/d32EJndKt1E?si=fslqcdARlF8FJAQj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/4fWntNjbKj8?si=HX67n7gIOqk_zQO2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </center> <br>
+
+            <center>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/CmAREn-VRcQ?si=Y3MpB6T-Ck4TQ7Ck" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/A_ODyfGpuxo?si=1tRqnUAvhlWiPq2k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+            </center> <br>
+
+            <center>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/0pyUQGjM5dg?si=oC_d5GRgQ3KlGFnA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ihYTKKMAVm4?si=1A7_dF-kczfR9H4l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </center> <br>
+
+            <center>
+                <div class="dropdown">
+                    <a href="#">Load More</a>
+                    <div class="dropdown-content">
+                        Not available now !!!
+                    </div>
+                </div>
+            </center>
+        </div>
+    </section>
+    <br><br>
+    <section id="about-content">
+            <h1 class="about-title" align="center">About Me</h1>
+            <h2 class="list-about" align="center">Here About Me with a list</h2>
+
+            <div class="list">
+                <p align="center">1. My name is Mohammod Shuddho Sarker</p>
+                <p align="center">2. I am a simple web deisgner</p>
+                <p align="center">3. I am learning web design</p>
+                <p align="center">4. I am from Bangladesh</p>
+                <p align="center">5. I am a muslim boy</p>
+            </div>
+    </section> 
+
+    <br> <br>
+
+    <section id="contact-content">
+
+        <h1 class="about-title" align="center">Contact Me</h1>
+        
+        <div class="container">
+            <h1>Get in Touch</h1>
+            <form action="mailto:youremail@example.com" method="post" enctype="text/plain">
+                <div class="form-group">
+                    <label for="firstName">First Name:</label>
+                    <input type="text" id="firstName" name="firstName" required>
+                </div>
+                <div class="form-group">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="confirmEmail">Confirm Email:</label>
+                    <input type="email" id="confirmEmail" name="confirmEmail" required>
+                    <span class="validation-message" id="emailMismatch"></span>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number:</label>
+                    <select id="countryCode" name="countryCode">
+                        <option value="BD" selected>Bangladesh (+880)</option>
+                        <option value="BH">Palestine (+970)</option>
+                        <option value="AF">Afghanistan (+93)</option>
+                        <option value="BH">Bhutan (+975)</option>
+                        <option value="CH">China (+86)</option>
+                        <option value="IN">India (+91)</option>
+                        <option value="MY">Myanmar (+95)</option>
+                        <option value="MA">Maldives (+960)</option>
+                        <option value="TH">Thailand (+66)</option>
+                        <option value="IN">Indonesia (+62)</option>
+                        <option value="JA">Japan (+81)</option>
+                        <option value="SO">South Korea (+82)</option>
+                        <option value="MA">Malaysia (+60)</option>
+                        <option value="SI">Singapore (+65)</option>
+                        <option value="VI">Vietnam (+84)</option>
+                        <option value="PH">Philippines (+63)</option>
+                        <option value="SR">Sri Lanka (+94)</option>
+                        <option value="UN">United Kingdom (+44)</option>
+                        <option value="FR">France (+33)</option>
+                        <option value="SP">Spain (+34)</option>
+                        <option value="IT">Italy (+39)</option>
+                        <option value="GE">Germany (+49)</option>
+                        <option value="CA">Canada (+1)</option>
+                        <option value="UN">United States (+1)</option>
+                        <option value="ME">Mexico (+52)</option>
+                        <option value="BR">Brazil (+55)</option>
+                        </select>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <div class="button-container">
+                    <a href="javascript;" target="_blank"><button class="btn">Send Massage</button></a>
+                </div>
+            </form>
+        </div>
+    </section>
+    <br><br>
+    <section id="footer">
+       
+        <div class="footer">
+            <a href="#" class="foot-logo">shuddhosarker</a>
+            <div class="link">
+                <a href="#home-content">Home</a>
+                <a href="#video-content">Videos</a>
+                <a href="#about-content">About Me</a>
+                <a href="#contact-content">Contact Me</a>
+            </div>
+        </div> <br>
+
+        <p class="copyright" align="center">&copy;2024 <a href="#home-content" class="foot-link">shuddhosarker</a> All rights reserved.</p>
+          
+    </section>
+
+</body>
+</html>
